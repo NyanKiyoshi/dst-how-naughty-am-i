@@ -16,9 +16,8 @@ end
 
 
 GLOBAL.AddModUserCommand("naughty mod", COMMAND_NAME, {
-    --aliases = swaggies,
     prettyname = function(command) return "How naughty is everyone?" end,
-    desc = function() return "List the naughtiness!" end,
+    desc = function() return "List the naughtinesses!" end,
     permission = "USER",
     params = {},
     emote = true,
